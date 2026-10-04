@@ -48,7 +48,7 @@ const PROJECTS = [
       "Performed system testing, debugging, and troubleshooting."
     ],
     features: ["Role-based access", "Ordering and pre-order workflow", "Cashier / walk-in ordering", "Inventory and product management", "Order monitoring", "Reports and feedback"],
-    links: [{ label: "View project on GitHub", href: "https://github.com/jorgejerixbanagan-dotcom/earist-pos.git" }]
+    links: [{ label: "View project on GitHub", href: "https://github.com/jhulmar-devtest/kapehan.git" }]
   },
   {
     id: "liwanag",
