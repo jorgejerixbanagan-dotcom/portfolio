@@ -35,7 +35,7 @@ const PROJECTS = [
     image: "images/kapehan.jpg",
     imageAlt: "Kapehan ni Amang landing page",
     tags: ["PHP", "MySQL", "JavaScript"],
-    stack: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+    stack: ["PHP", "MySQL", "CSS", "JavaScript", "Composer", "PHPMailer"],
     overview: "A web-based Point of Sales system designed to support ordering, cashier operations, inventory, and administrative monitoring for Kapehan ni Amang.",
     contributions: [
       "Developed and improved core POS modules.",
