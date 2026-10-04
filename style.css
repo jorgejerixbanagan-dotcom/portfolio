@@ -1317,3 +1317,8 @@ body.dark .about-visual div { border-color: var(--line); background: linear-grad
     max-height: none;
   }
 }
+
+
+/* ===== GitHub icon in the sidebar ===== */
+.socials a svg { width: 20px; height: 20px; fill: currentColor; display: block; }
+.socials a:has(> svg) { display: grid; place-items: center; }
