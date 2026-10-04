@@ -1306,3 +1306,14 @@ body.dark .about-visual div { border-color: var(--line); background: linear-grad
 .card.coming-soon { border-style: dashed; display: grid; place-content: center; justify-items: center; text-align: center; gap: 6px; min-height: 200px; color: var(--muted); }
 .card.coming-soon h3 { color: var(--text); }
 .card.coming-soon .project-image-icon { color: var(--accent); font-size: 28px; }
+
+
+/* ===== Phones: the whole page scrolls (no trapped inner scroll areas) ===== */
+@media (max-width: 760px) {
+  html, body { height: auto; overflow-y: auto; }
+  .content-grid, .content-grid.detail-view, .content-grid:not(.detail-view) {
+    overflow: visible;
+    overscroll-behavior: auto;
+    max-height: none;
+  }
+}
