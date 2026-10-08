@@ -289,7 +289,7 @@ function skillsTemplate() {
         <div>
           <h4>Web Development</h4>
           <ul>
-            <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>PHP</li>
+            <li>HTML</li><li>CSS</li><li>JavaScript</li><li>PHP</li>
           </ul>
         </div>
         <div>
